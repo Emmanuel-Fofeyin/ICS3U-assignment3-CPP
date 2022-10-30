@@ -2,7 +2,7 @@
 //
 // Created by: Emmanuel
 // Created on: Oct 2022
-// this program accepts packages for a company,
+// This program accepts packages for a company,
 // and decides if the package is acceptable or not.
 
 #include <math.h>
