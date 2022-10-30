@@ -41,8 +41,9 @@ int main() {
         std::cout
     <<packageVolume<< " cubic cm is approved, the company accepts package.";
     } else {
-        std::cout
-    <<packageVolume<< " cubic cm is unapproved, the company rejects package.";
+        std::cout << "\n";
+        std::cout 
+        <<packageVolume<< " cubic cm is unapproved, the company rejects package.";
     }
 
     std::cout << "\n\nDone.\n";
