@@ -36,6 +36,7 @@ int main() {
         std::cout
     <<packageWeight<< "kg is unapproved weight, the company rejects package.";
     }
+    std::cout << "\n";
     packageVolume = (packageLength * packageWidth * packageHeight);
     if (packageVolume <= 10000) {
         std::cout
