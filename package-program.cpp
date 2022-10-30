@@ -4,6 +4,7 @@
 // Created on: Oct 2022
 // This program accepts packages for a company,
 // and decides if the package is acceptable or not.
+// This program uses if and else statements.
 
 #include <math.h>
 #include <iostream>
@@ -30,18 +31,18 @@ int main() {
     // process and output
     if (packageWeight > 27 || packageWeight < 27) {
         std::cout
-    << packageWeight << "kg is an acceptable weight, the company approves.";
+    <<packageWeight<< "kg is an approved weight, the company accepts package.";
     } else {
         std::cout
-    <<packageWeight<< "kg is an unacceptable weight, the company disapproves.";
+    <<packageWeight<< "kg is unapproved weight, the company rejects package.";
     }
     packageVolume = (packageLength * packageWidth * packageHeight);
     if (packageVolume <= 10000) {
         std::cout
-    << packageVolume << " cubic cm is acceptable, the company approves.";
+    <<packageVolume<< " cubic cm is approved, the company accepts package.";
     } else {
         std::cout
-    << packageVolume << " cubic cm is unacceptable, the company disapproves.";
+    <<packageVolume<< " cubic cm is unapproved, the company rejects package.";
     }
 
     std::cout << "\n\nDone.\n";
