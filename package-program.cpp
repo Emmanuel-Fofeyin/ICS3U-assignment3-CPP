@@ -45,6 +45,9 @@ int main() {
         std::cout
     <<packageVolume<< " cubic cm is unapproved, the company rejects package.";
     }
+    if (packageWeight == 27 or packageVolume > 10000){
+        std::cout << "\nSorry the company cannot accepted the package because its equal to 27kg or larger than 10,000 cubic cm.";
+    }
 
     std::cout << "\n\nDone.\n";
 }
