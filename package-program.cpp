@@ -34,7 +34,7 @@ int main() {
     <<packageWeight<< "kg is an approved weight, the company accepts package.";
     } else {
         std::cout
-    <<packageWeight<< "kg is unapproved weight, the company rejects package.";
+    <<packageWeight<< "kg is an unapproved weight, the company rejects package.";
     }
     std::cout << "\n";
     packageVolume = (packageLength * packageWidth * packageHeight);
@@ -48,7 +48,7 @@ int main() {
     std::cout << "\n";
     if (packageWeight == 27 || packageVolume > 10000){
         std::cout << "\nSorry the company cannot accepted the package because its "
-        " either equal to 27kg or larger than 10,000 cubic cm.";
+        "either equal to 27kg or larger than 10,000 cubic cm.";
     }
 
     std::cout << "\n\nDone.\n";
